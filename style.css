@@ -1,0 +1,923 @@
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('font/Pragmatica-Medium.woff2') format('woff2'),
+       url('font/Pragmatica-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtBold';
+  src: url('font/PragmaticaExtended-Bold.woff2') format('woff2'),
+       url('font/PragmaticaExtended-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aeroport';
+  src: url('font/Aeroport-Regular.woff2') format('woff2'),
+       url('font/Aeroport-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headerfont{
+  font-size: 96px;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+}
+.headerfontt{
+  font-size: 65px;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+}
+.midlfont{
+  font-size: 30px;
+  font-family: 'Pragmatica', sans-serif;
+  line-height: 25px;
+}
+
+.minifont{
+  font-family: 'Aeroport', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 20px;        /* Межстрочное расстояние */
+  letter-spacing: -0.06em;  /* Межбуквенное расстояние */
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pragmatica', sans-serif;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  background: white;
+}
+
+.logo {
+  height: 36px;
+}
+
+.nav a {
+  margin-left: 30px;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+.button {
+  background: white;
+  padding: 29px 58px;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: 'Aeroport', sans-serif;
+  font-weight: 400;
+  line-height: 20px;        /* Межстрочное расстояние */
+  letter-spacing: -0.06em;  /* Межбуквенное расстояние */
+}
+.button:hover{
+  background-color: #FFE351;
+  transition: background-color 0.3s ease;
+}
+.bodybackgraund{
+  padding-top: 106px;
+  background-color: #01D19C;
+  background-image: url(image/bodybackgraund.gif);
+  width: 1512px;
+  height: 750px;
+}
+.content{
+margin-left:  40px;
+}
+.midlfont{
+  padding-top: 85px;
+  padding-bottom: 65px;
+}
+
+body {
+  margin: 0;
+  background: #E8EDF3;
+}
+.Conteiner{
+  margin:  0px 40px 40px 40px;
+}
+.wrapper {
+  padding-top: 60px;
+}
+
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card {
+  background: #FFFFFF;
+  width: 327px;
+  height: 400px;
+  padding: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Aeroport', sans-serif; /* теперь мелкий текст */
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 25px;
+  color: black;
+}
+
+.number {
+  font-size: 55px;
+  font-family: 'Aeroport', sans-serif;
+  font-weight: 500;
+}
+
+.slidercard {
+  padding: 44px;
+  background: #ffffff; 
+  height: 650px;
+}
+
+.headerfontt {
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  line-height: 1;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.purpleblock {
+  background-color: #B2A1FF;
+  height: 480px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: background-image 1s ease-in-out;
+}
+
+
+.next {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  font-family: 'Aeroport', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+
+.users-section {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.user-card {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  background: #FFFFFF;
+  padding: 20px;
+  height: 250px;
+  
+}
+.midlfonte{
+  font-size: 30px;
+  font-family: 'Pragmatica', sans-serif;
+  line-height: 30px;
+
+}
+
+.apps {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  background-image: url(image/element.png);
+  background-repeat: no-repeat;
+}
+.telephone{
+  display: flex;
+  justify-content: space-between;
+}
+.Buttongreen button{
+  background-color: #01D19C;
+  width: 300px;
+  height: 70px;
+  font-family: 'Aeroport', sans-serif;
+  font-size: 30px;
+  border-color: #01D19C;
+  text-decoration: none;
+  border: none;
+}
+
+.Buttongreen button:hover{
+  background-color: #FFE351;
+  transition: background-color 0.3s ease;
+}
+.Buttongreen{
+ align-content: center;
+ padding-top: 20px;
+ padding-left: 550px;
+}
+
+.backgraundwhite{
+  background-color: #FFFFFF;
+  background-image: url(image/backgraundyellow.svg);
+  background-repeat: no-repeat;
+  width: 1435px;
+  height: 700px;
+  
+}
+.headerfontts{
+  font-size: 65px;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 50px;
+}
+
+
+.Forms{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.form-title {
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: black;
+  background-color: #01D19C;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.form-right {
+  flex: 1;
+  max-width: 644px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 750px;
+  margin-top: 40px;
+}
+
+.form-right input {
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  background-color: #E8EDF3;
+  font-family: 'Aeroport', sans-serif;
+}
+
+.form-right button {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #01D19C;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: 'Aeroport', sans-serif;
+  
+}
+.form-right button:hover{
+  background-color: #FFE351;
+  transition: background-color 0.3s ease;
+}
+.headerfonttss {
+  font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 590px;
+     height: 70px;
+}
+.headerfonttssss{
+   font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 580px;
+     height: 70px;
+}
+
+.headerfonttst{
+ font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 550px;
+     height: 70px;
+}
+.purpleblock{
+  margin-top: 20px;
+}
+.heaaderfont{
+  background-color: #D9D9D9;
+  font-size: 96px;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     width: 950px;
+     height: 100px;
+     padding: 7px;
+}
+.heaaaderfont{
+  background-color: #D9D9D9;
+  font-size: 96px;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     width: 900px;
+     height: 100px;
+     padding: 7px;
+}
+.heaaaaderfont{
+  background-color: #D9D9D9;
+  font-size: 96px;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     width: 810px;
+     height: 100px;
+     padding: 7px;
+}
+.hheaderfontt {
+  font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 750px;
+     height: 70px;
+}
+.hhheaderfontt {
+  font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 1000px;
+     height: 70px;
+}
+
+.heeaderfontt{
+  font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 580px;
+     height: 70px;
+}
+.heeeaderfontt{
+  font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 700px;
+     height: 70px;
+}
+.headderfontts{
+  font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 850px;
+     height: 70px;
+}
+.headddderfontts{
+  font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 820px;
+     height: 70px;
+}
+.headdddderfontts{
+  font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 630px;
+     height: 70px;
+}
+.headerfonttf{
+  color: #000000;
+  font-size: 65px;
+  background-color: #01D19C;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 800px;
+     height: 70px;
+}
+
+.faq-containerheadtext{
+  margin-bottom: 50px;
+}
+.faq-container {
+  max-width: 1455px;
+  margin: 70px 0px 60px 0px
+}
+.faq-containerhead{
+  display: flex;
+}
+.faq-containerheadtext{
+  color: #000000;
+  
+}
+
+.faq-question {
+   font-family: 'Aeroport', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 20px;        /* Межстрочное расстояние */
+  letter-spacing: -0.06em;  /* Межбуквенное расстояние */
+  background-color: #E8EDF3;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 3px 3px 3px 3px;
+  font-size: 25px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: #000000;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #69DEC3;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  border-bottom: 1px solid #000000;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+}
+
+.faq-answer ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.faq-answer.open {
+  padding: 15px 20px;
+  max-height: 300px; 
+}
+.headderfonttsphoto{
+  color: #000000;
+  font-size: 65px;
+  background-color: #E8EDF3;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 350px;
+     height: 70px;
+}
+.headderfonttsphotoo{
+  color: #000000;
+  font-size: 65px;
+  background-color: #E8EDF3;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 370px;
+     height: 70px;
+}
+.backgraundgreenphoto{
+  background-image: url(image/backgraundgreenphoto.png);
+  background-repeat: no-repeat;
+  width: 1512px;
+  height: 492px;
+}
+.photo{
+  padding: 40px;
+}
+.textbaza{
+  margin-top: 140px;
+  padding: 4px;
+  font-size:30px;
+  font-weight: 500;
+  background-color: #E8EDF3;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: 'Aeroport', sans-serif;
+  width: 420px;
+     height: 70px;
+      line-height: 30px;       /* межстрочное */
+  letter-spacing: -0.06em; /* межбуквенное */
+}
+
+.Contacts{
+  background-color: #01D19C;
+  margin-top: 45px;
+  height: 400px;
+}
+.Conteinertop{
+  padding-top: 40px;
+}
+.textmin{
+  margin-left: 380px;
+  display: flex;
+  margin-top: 60px;
+  padding: 4px;
+  font-size:15px;
+  font-weight: 500;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: 'Aeroport', sans-serif;
+  line-height: 15px;       /* межстрочное */
+  letter-spacing: -0.06em; /* межбуквенное */
+}
+.fontheadercontact{
+
+  color: #000000;
+  font-size: 65px;
+  background-color: #E8EDF3;
+  font-family: 'PragmaticaExtBold', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.06em;
+  text-shadow:
+    -0.5px 0 currentColor,
+     0.5px 0 currentColor,
+     0   -0.5px currentColor,
+     0    0.5px currentColor;
+     padding: 4px;
+     width: 370px;
+     height: 70px;
+}
+.smalltextonee{
+  padding: 4px;
+  background-color: #E8EDF3;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: 'Aeroport', sans-serif;
+  width: 380px;
+  height: 30px;
+}
+.smalltextoneee{
+  padding: 4px;
+  background-color: #E8EDF3;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: 'Aeroport', sans-serif;
+  width: 300px;
+  height: 30px;
+}
+.smalltextoneeee{
+  padding: 4px;
+  background-color: #E8EDF3;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: 'Aeroport', sans-serif;
+  width: 230px;
+  height: 30px;
+}
+.icons{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.smalltextwo{
+  margin-left: 100px;
+  margin-top: 122px;
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.user-card {
+  position: relative;
+  height: 250px;
+  background-color: #FFFFFF;
+  color: black;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  transition: color 0.3s ease;
+}
+
+/* Фоновая картинка — появляется поверх белого фона */
+.user-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+}
+
+/* Текст — поверх всего */
+.user-card > * {
+  position: relative;
+  z-index: 2;
+  transition: opacity 0.4s ease;
+}
+
+.midlfonte {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Pragmatica', sans-serif;
+}
+
+.minifont {
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Aeroport', sans-serif;
+}
+
+/* При наведении: фон появляется, текст исчезает */
+.user-card:hover::before {
+  opacity: 1;
+}
+
+.user-card:hover > * {
+  opacity: 0;
+}
+
+/* ==== Фоновые изображения для карточек ==== */
+
+.user-card.c1::before {
+  background-image: url("image/cads1-hover.jpg");
+}
+
+.user-card.c2::before {
+  background-image: url("image/cads2-hover.jpg");
+}
+
+.user-card.c3::before {
+  background-image: url("image/cads3-hover.jpg");
+}
+
+.user-card.c4::before {
+  background-image: url("image/cads4-hover.jpg");
+}
+
+.user-card.c5::before {
+  background-image: url("image/cads5-hover.jpg");
+}
+
+.user-card.c6::before {
+  background-image: url("image/cads6-hover.jpg");
+}
+
+.card {
+  position: relative;
+  background: #FFFFFF;
+  width: 327px;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Aeroport', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 25px;
+  color: black;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background-image 0.4s ease;
+}
+
+/* Затемнение и фон — появляющийся блок */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+}
+
+/* Контент — поверх до наведения */
+.card > * {
+  position: relative;
+  z-index: 2;
+  transition: opacity 0.4s ease;
+}
+
+/* Наведение — скрывает текст и показывает фон */
+.card:hover::before {
+  opacity: 1;
+}
+
+.card:hover > * {
+  opacity: 0;
+}
+
+/* ==== Индивидуальные фоновые изображения ==== */
+
+.card.c1::before {
+  background-image: url("image/card1.jpg");
+}
+
+.card.c2::before {
+  background-image: url("image/card2.jpg");
+}
+
+.card.c3::before {
+  background-image: url("image/card3.jpg");
+}
+
+.card.c4::before {
+  background-image: url("image/card4.jpg");
+}

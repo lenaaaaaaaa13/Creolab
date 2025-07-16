@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="image/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <title>Creolab</title>
+</head>
+
+<body>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const purpleBlock = document.querySelector('.purpleblock');
+
+    if (!purpleBlock) return; // защита на случай, если блок не найден
+
+    const backgrounds = [
+  'image/purple1.svg',
+  'image/purple2.svg',
+  'image/purple3.svg',
+  'image/purple4.svg'
+];
+
+    let current = 0;
+
+    function changeBackground() {
+      purpleBlock.style.backgroundImage = `url(${backgrounds[current]})`;
+      current = (current + 1) % backgrounds.length;
+    }
+
+    changeBackground(); // Показать первую
+    setInterval(changeBackground, 3000); // Авто-смена
+  });
+</script>
+
+
+    <div class="header">
+      <img src="image/logo.png" class="logo" alt="logo">
+      <nav class="nav">
+        <a href="#Contacts" class="Navigationbutton">Контакты</a>
+        <a href="#Abouttheapp" class="Navigationbutton">О приложении</a>
+        <a href="#Download" class="Navigationbutton">Скачать</a>
+      </nav>
+    </div>
+    <div class="bodybackgraund">
+      <div class="content">
+        <div class="headerfont">
+          <div class="heaaderfont">ЗДЕСЬ ТВОРЧЕСТВО</div>
+          <div class="heaaaderfont">НЕ ПРОСТО ХОББИ</div>
+          <div class="heaaaaderfont">ЭТО ПРОФЕССИЯ</div> 
+        </div>
+        <div class="midlfont">
+          <strong>Creolab —</strong> пространство для музыкантов,<br> художников, видеографов и креаторов.<br>
+          Найди команду, покажи своё портфолио,<br> участвуй в проектах, расти и зарабатывай.
+        </div>
+        <button class="button">Скачать приложение</button>
+      </div>
+    </div>
+    <div class="Conteiner"> 
+
+      <div class="wrapper">
+          <div class="headerfonttsss">
+            <div class="headerfonttss">ПОЧЕМУ ТВОРЦАМ</div>
+            <div class="headerfonttst">СЛОЖНО РАСТИ?</div>
+          </div>
+       <div class="cards">
+          <div class="card c1">
+            <div class="number">(01)</div>
+            <div class="minifont">Работы теряются<br>в шуме соцсетей</div>
+          </div>
+          <div class="card c2">
+            <div class="number">(02)</div>
+            <div class="minifont">Коллаборации требуют<br>десятки переписок<br>в разных соц.сетях</div>
+          </div>
+          <div class="card c3">
+            <div class="number">(03)</div>
+            <div class="minifont">Профессионалы тратят<br>часы на поиск талантов</div>
+          </div>
+          <div class="card c4">
+            <div class="number">(04)</div>
+            <div class="minifont">Новичкам сложно найти<br>вход в комьюнити</div>
+          </div>
+        </div>
+        </div>
+      <div class="slidercard">
+        <div class="cardd">
+          <div class="headerfonttsss">
+            <div class="headerfonttss">CREOLAB РЕШАЕТ</div>
+            <div class="headerfonttst">ЭТИ ПРОБЛЕМЫ</div>
+          </div>
+          <div class="purpleblock"></div>
+        </div>
+      </div>
+
+      <div class="users-section">
+        <div class="headerfontt">
+          <div class="hheaderfontt">С НАМИ УЖЕ 45 ТЫСЯЧ</div>
+          <div class="hhheaderfontt">ДОВОЛЬНЫХ ПОЛЬЗОВАТЕЛЕЙ:</div>
+        </div>
+
+        <div class="users-grid">
+          <div class="user-card c1">
+            <div class="midlfonte">КРЕАТОРЫ</div>
+            <div class="minifont">Музыканты, саунд-дизайнеры, звукорежиссёры</div>
+          </div>
+          <div class="user-card c2">
+            <div class="midlfonte">ХУДОЖНИКИ</div>
+            <div class="minifont">Художники, иллюстраторы</div>
+          </div>
+          <div class="user-card c3">
+            <div class="midlfonte">ДИЗАЙНЕРЫ</div>
+            <div class="minifont">Графические, одежды, UX/UI, 3D</div>
+          </div>
+          <div class="user-card c4">
+            <div class="midlfonte">ВИДЕО И ФОТО</div>
+            <div class="minifont">Видеографы, рилсмейкеры, режиссёры</div>
+          </div>
+          <div class="user-card c5">
+            <div class="midlfonte">МОДЕЛИ / АКТЁРЫ</div>
+            <div class="minifont">Разные типажи</div>
+          </div>
+          <div class="user-card c6">
+            <div class="midlfonte">РАЗРАБОТЧИКИ</div>
+            <div class="minifont">Frontend, Backend, Fullstack, Game Dev</div>
+          </div>
+        </div>
+        </div>
+      <div class="apps">
+      <div class="headerfontt">
+        <div class="heeaderfontt">ГОТОВ ПОКАЗАТЬ</div>
+        <div class="heeeaderfontt">СВОИ ПРОЕКТЫ МИРУ</div>
+      </div>
+      <div class="telephone">
+        <div><img src="image/image1.svg" alt=""></div>
+        <div><img src="image/image2.svg" alt=""></div>
+        <div><img src="image/image3.svg" alt=""></div>
+        <div><img src="image/image4.svg" alt=""></div>
+      </div>
+      <div class="Buttongreen">
+        <div><button>Скачать</button></div>
+  
+      </div>
+      
+    
+
+   
+        </div>
+      <div class="Forms">
+        <div class="backgraundwhite">
+          <div class="headerfontts">
+            <div class="headderfontts">ОСТАВЬ ПОЧТУ И ПОЛУЧАЙ</div>
+            <div class="headddderfontts">ОБНОВЛЕНИЯ,ВАКАНСИИ</div>
+            <div class="headdddderfontts"> И ИСТОРИИ УСПЕХА</div>
+          </div>
+            <div class="form-right">
+            <input type="text" placeholder="Введите ваше имя">
+            <input type="tel" placeholder="Введите номер телефона">
+            <input type="email" placeholder="Введите почту">
+            <button type="submit">Отправить</button>
+          </div>
+        </div>
+        </div>
+      <div class="faq-container">
+        <div class="faq-containerhead">
+          <div class="faq-containerheadtext">
+           <div class="headerfonttf">ОТВЕЧАЕМ НА ВОПРОСЫ</div>
+          </div>
+        </div>   
+      <div class="faq-item">
+          <div class="faq-question">Что такое Creolab и для кого эта платформа?<span class="plus"><img src="image/plus.svg" alt=""></span></div>
+          <div class="faq-answer">
+              <p class="font20 font-weight">Creolab — это креативная платформа для музыкантов, художников, видеографов, дизайнеров, актёров и других творцов. Здесь ты можешь собрать портфолио, найти команду и попасть в реальные проекты. </p>
+          </div>
+      </div>
+      <div class="faq-item">
+          <div class="faq-question">Я только начинаю — могу ли я зарегистрироваться?<span class="plus"><img src="image/plus.svg" alt=""></span></div>
+          <div class="faq-answer">
+              <p class="font20 font-weight">Да! Платформа подходит как новичкам, которые только начинают путь в творчестве, так и профи — каждый найдёт возможности для роста, коллабораций и вдохновения.</p>
+          </div>
+      </div>
+      <div class="faq-item">
+          <div class="faq-question">Зачем мне портфолио на Creolab, если есть соцсети?<span class="plus"><img src="image/plus.svg" alt=""></span></div>
+          <div class="faq-answer">
+              <p class="font20 font-weight">В соцсетях твои работы теряются в ленте. В Creolab ты выкладываешь кейсы в единой визуальной системе — их проще показать, найти и использовать как инструмент для заказов или коллабов.</p>
+          </div>
+      </div>
+      <div class="faq-item">
+          <div class="faq-question">Помогут ли мне выбрать билет?<span class="plus"><img src="image/plus.svg" alt=""></span></div>
+          <div class="faq-answer">
+              <p class="font20 font-weight">Конечно. Мы всегда проконсультируем, какое время вылета удобнее брать, и пришлем ссылки на подходящие рейсы.</p>
+          </div>
+      </div>
+      <div class="faq-item">
+          <div class="faq-question">Как я могу найти команду для проекта?<span class="plus"><img src="image/plus.svg" alt=""></span></div>
+          <div class="faq-answer">
+              <p class="font20 font-weight">На платформе ты можешь настроить фильтры по интересам и стилям, найти креаторов и предложить им сотрудничество прямо в одном клике — без бесконечных переписок в разных мессенджерах.</p>
+          </div>
+      </div>
+      <div class="faq-item">
+          <div class="faq-question">Могу ли я зарабатывать через Creolab?<span class="plus"><img src="image/plus.svg" alt=""></span></div>
+          <div class="faq-answer">
+              <p class="font20 font-weight">Да. Публикуя проекты, ты становишься заметнее, получаешь фидбэк и предложения о сотрудничестве. Многие пользователи уже находят заказчиков, арт-директоров и партнёров прямо здесь.</p>
+          </div>
+      </div>
+      <div class="faq-item">
+          <div class="faq-question">Какие форматы контента я могу выкладывать?<span class="plus"><img src="image/plus.svg" alt=""></span></div>
+          <div class="faq-answer">
+              <p class="font20 font-weight">Иллюстрации, видео, звук, фото, 3D, сценки, скетчи, артбуки, обложки, саунд-дизайн — всё, что можно показать визуально или через звук. Платформа поддерживает мультимедийные кейсы.</p>
+          </div>
+      </div>
+      <div class="faq-item">
+          <div class="faq-question">Есть ли алгоритмы или система рекомендаций?<span class="plus"><img src="image/plus.svg" alt=""></span></div>
+          <div class="faq-answer">
+              <p class="font20 font-weight">Да, кейсы и профили ранжируются не только по лайкам, но и по релевантности интересам других креаторов. Чем больше активность — тем выше видимость.</p>
+          </div>
+      </div>
+      <div class="faq-item">
+          <div class="faq-question">Как получить фидбэк на свои работы?<span class="plus"><img src="image/plus.svg" alt=""></span></div>
+          <div class="faq-answer">
+              <p class="font20 font-weight"> Ты можешь включить фидбэк в кейсах, участвовать в открытых обзорах и получать комментарии от других участников или кураторов платформы.</p>
+          </div>
+      </div>
+        </div>
+    </div>
+    <div class="guastionphpto">
+        <div class="backgraundgreenphoto">
+          <div class="photo">
+            <div class="headderfonttsphoto">
+              ОСТАЛИСЬ
+            </div>
+            <div class="headderfonttsphotoo">
+              ВОПРОСЫ?
+            </div>
+            <div class="textbaza">
+              Служба заботы всегда ответит <br>на все вопросы в любое время
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="Contacts">
+      <div class="Conteiner">
+        <div class="Conteinertop">
+        <div class="fontheadercontact">КОНТАКТЫ</div>
+        <div class="textmin">
+          <div class="smalltextone">
+            <div class="smalltextonee">Подписывайтесь на наши социальные сети или звоните,<br> мы будем рады обратной связи и вашим вопросам.
+            </div>
+            <div class="icons"><img src="image/icons.svg" alt="">
+            </div>
+            <div class="smalltextoneee">ИП Маламагомедов Маламагомед Набиевич <br>ИНН 053689267113 Хунзахский р-н, с. Ках
+            </div>
+          </div>
+          <div class="smalltextwo">
+           <div class="smalltextoneeee">© ИП Маламагомедов М. Н., 2023 <br>Все права защищены.</div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    
+
+
+
+
+    </div>
+    </div> 
+
+
+  <script>
+  document.querySelectorAll('.faq-question').forEach((question) => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const icon = question.querySelector('.plus img');
+
+      const isOpen = answer.classList.contains('open');
+
+      // Закрываем все ответы
+      document.querySelectorAll('.faq-answer').forEach((el) => {
+        el.classList.remove('open');
+      });
+
+      // Сбрасываем все иконки на "+"
+      document.querySelectorAll('.faq-question .plus img').forEach((img) => {
+        img.src = 'image/plus.svg';
+      });
+
+      // Если текущий не был открыт — открываем и меняем иконку
+      if (!isOpen) {
+        answer.classList.add('open');
+        icon.src = 'image/minus.svg'; // 🔁 Замените на свой файл иконки минуса
+        // Скроллим к открытому вопросу
+        setTimeout(() => {
+          question.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 100);
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
