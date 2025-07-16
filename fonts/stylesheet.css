@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Pragmatica Extended';
+    src: url('PragmaticaExtended-Bold.eot');
+    src: url('PragmaticaExtended-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaExtended-Bold.woff2') format('woff2'),
+        url('PragmaticaExtended-Bold.woff') format('woff'),
+        url('PragmaticaExtended-Bold.ttf') format('truetype'),
+        url('PragmaticaExtended-Bold.svg#PragmaticaExtended-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

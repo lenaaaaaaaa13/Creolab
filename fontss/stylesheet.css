@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Aeroport';
+    src: url('Aeroport-Medium.eot');
+    src: url('Aeroport-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Aeroport-Medium.woff2') format('woff2'),
+        url('Aeroport-Medium.woff') format('woff'),
+        url('Aeroport-Medium.ttf') format('truetype'),
+        url('Aeroport-Medium.svg#Aeroport-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
